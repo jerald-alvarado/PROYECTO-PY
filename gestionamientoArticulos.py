@@ -1,11 +1,15 @@
+import claseArticulos
+
 almacen = {}
 
-def agregar_articulo():
-    bodega = input("Introduzca para que bodega va dirigido el artículo (cocina, licores): ")
+art = claseArticulos()
+
+def agregar_articulo(self):
+    self.art.bodega = input("Introduzca para que bodega va dirigido el artículo (cocina, licores): ")
     nombre = input("Introduzca el nombre del artículo: ")
     descripcion = input("Introduzca la descripción del artículo: ")
     cantidad = int(input("Introduzca la cantidad en inventario a almacenar del artículo: "))
-    almacen[bodega] = {"nombre": nombre, "descripcion": descripcion, "cantidad": cantidad}
+    almacen[self.art.bodega] = {"nombre": nombre, "descripcion": descripcion, "cantidad": cantidad}
 
 def actualizar_cantidad():
     bodega = input("Introduzca para que bodega va dirigido el artículo (cocina, licores): ")
