@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblnombreBod">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>31</y>
+     <width>43</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtNombreBod">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>31</y>
+     <width>116</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTipoBod">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>31</y>
+     <width>116</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTipo">
+   <property name="geometry">
+    <rect>
+     <x>276</x>
+     <y>31</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tipo:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtUbicacion">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>31</y>
+     <width>116</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblUbicacion">
+   <property name="geometry">
+    <rect>
+     <x>503</x>
+     <y>31</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubicacion:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>481</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDescripcionbod">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Descripcion:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAgregarBod">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
